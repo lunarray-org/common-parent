@@ -48,6 +48,14 @@
 		<url>https://github.com/lunarray-org/common-parent</url>
 	</scm>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/lunarray-org/common-parent</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<developers>
 		<developer>
 			<id>christianvanderstap</id>
